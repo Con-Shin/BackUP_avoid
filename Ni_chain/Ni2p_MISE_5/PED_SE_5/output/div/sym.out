@@ -1,0 +1,54 @@
+
+
+                                      number of centers=    6  outer sphere at center 1
+
+                                                    position
+                              atom    no.    x         y         z        eq     lmax     #cores
+
+                             2  Ni      28    0.0000    0.0000    0.0000     0       3        0
+                             3  Ni      28    0.0000    0.0000    6.6518     0       3        0
+                             4  Ni      28    0.0000    0.0000   13.3037     0       3        0
+                             5  Ni      28    0.0000    0.0000   19.9555     0       3        0
+                             6  Ni      28    0.0000    0.0000   26.6073     0       3        0
+                             1  osph     0    0.0000    0.0000   13.3037     0       3        0
+
+                                              ******************************
+
+
+
+                         calculated atomic symmetry equivalences,
+                              based on interatomic distance matrix:       na    neq(na)
+
+                                                                           1       0
+                                                                           2       0
+                                                                           3       0
+                                                                           4       0
+                                                                           5       0
+                                                                           6       0
+
+                                  the calculated symmetry-eq sets agree with the input
+
+
+
+
+                                      molecular orientation for basis fn projection:
+
+                                                    position
+                              atom    no.    x         y         z        eq     lmax     #cores
+
+                             1  osph     0    0.0000    0.0000    0.0000     0       3        0
+                             2  Ni      28    0.0000    0.0000  -13.3037     0       3        0
+                             3  Ni      28    0.0000    0.0000   -6.6518     0       3        0
+                             4  Ni      28    0.0000    0.0000    0.0000     0       3        0
+                             5  Ni      28    0.0000    0.0000    6.6518     0       3        0
+                             6  Ni      28    0.0000    0.0000   13.3037     0       3        0
+
+                                              ******************************
+
+
+    1    2    3    4    5
+    1      Ni     28    0.0000    0.0000    0.0000    1
+    2      Ni     28    0.0000    0.0000    6.6518    2
+    3      Ni     28    0.0000    0.0000   13.3037    3
+    4      Ni     28    0.0000    0.0000   19.9555    4
+    5      Ni     28    0.0000    0.0000   26.6073    5

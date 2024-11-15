@@ -1,0 +1,120 @@
+    ***************************************************************************
+    *                             spec input file                             *
+    ***************************************************************************
+    *=========================================================================*
+    *                           CRYSTAL STRUCTURE :                           *
+    *====+=========+=========+=========+=========+============================*
+    *  CUB         P         0         5         CRIST,CENTR,IBAS,NAT         *
+    *    1.0000    1.000     1.000   ATU         A,BSURA,CSURA,UNIT           *
+    *   90.00     90.00     90.00                ALPHAD,BETAD,GAMMAD          *
+    *    0         0         0         1         H,K,I,L                      *
+    *    8         1.40      0         1         NIV,COUPUR,ITEST,IESURF      *
+    *    0.000000  0.000000  0.000000  Mg  12    ATBAS,CHEM(NAT),NZAT(NAT)    *
+    *    0.000000  0.500000  0.000000   O   8    ATBAS,CHEM(NAT),NZAT(NAT)    *
+    *    1.000000  0.000000  0.000000            VECBAS                       *
+    *    0.000000  1.000000  0.000000            VECBAS                       *
+    *    0.000000  0.000000  1.000000            VECBAS                       *
+    *    0         0         0.0       0.0       IREL,NREL,PCREL(NREL)        *
+    *   28.00      0.00      1                   OMEGA1,OMEGA2,IADS           *
+    *====+=========+=========+=========+=========+============================*
+    *                          TYPE OF CALCULATION :                          *
+    *====+=========+=========+=========+=========+============================*
+    *  PHD         0         0         0         SPECTRO,ISPIN,IDICHR,IPOL    *
+    *    1                                       I_AMP                        *
+    *====+=========+=========+=========+=========+============================*
+    *                      PhD EXPERIMENTAL PARAMETERS :                      *
+    *====+=========+=========+=========+=========+============================*
+    *   2p        1/2        2         0         LI,S-O,INITL,I_SO            *
+    *    0         2         0         0         IPHI,ITHETA,IE,IFTHET        *
+    *    1       320         1         1         NPHI,NTHETA,NE,NFTHET        *
+    *    0.00    -80.00    379.10      0.500     PHI0,THETA0,E0,R0            *
+    *    0.00     79.50    379.10     -1.000     PHI1,THETA1,E1,R1            *
+    *   55.15    -44.70   1486.60                THLUM,PHILUM,ELUM            *
+    *    1         0         0.00      0         IMOD,IMOY,ACCEPT,ICHKDIR     *
+    *====+=========+=========+=========+=========+============================*
+    *                      LEED EXPERIMENTAL PARAMETERS :                     *
+    *====+=========+=========+=========+=========+============================*
+    *    0         2         0         0         IPHI,ITHETA,IE,IFTHET        *
+    *    1       320         1         1         NPHI,NTHETA,NE,NFTHET        *
+    *    0.00    -80.00    100.00      0.500     PHI0,THETA0,E0,R0            *
+    *    0.00     79.50    316.40     -1.000     PHI1,THETA1,E1,R1            *
+    *   55.15    -44.70                          TH_INI,PHI_INI               *
+    *    1         0         0.00      0         IMOD,IMOY,ACCEPT,ICHKDIR     *
+    *====+=========+=========+=========+=========+============================*
+    *                     EXAFS EXPERIMENTAL PARAMETERS :                     *
+    *====+=========+=========+=========+=========+============================*
+    *   L1         1        55.15    -44.70      EDGE,INITL,THLUM,PHILUM      *
+    *    1       200.00    600.00   1486.70      NE,EK_INI,EK_FIN,EPH_INI     *
+    *====+=========+=========+=========+=========+============================*
+    *                      AED EXPERIMENTAL PARAMETERS :                      *
+    *====+=========+=========+=========+=========+============================*
+    *   L2        M2        M2                   EDGE_C,EDGE_I,EDGE_A         *
+    *    1        1D2                            I_MULT,MULT                  *
+    *    0         2         0         0         IPHI,ITHETA,IFTHET,I_INT     *
+    *    1       320         1                   NPHI,NTHETA,NFTHET           *
+    *    0.00    -80.00      0.500               PHI0,THETA0,R0               *
+    *    0.00     79.50     -1.000               PHI1,THETA1,R1               *
+    *    1         0         0.00      0         IMOD,IMOY,ACCEPT,ICHKDIR     *
+    *====+=========+=========+=========+=========+============================*
+    *                   EIGENVALUE CALCULATION PARAMETERS :                   *
+    *====+=========+=========+=========+=========+============================*
+    *    1       379.10    379.10      3         NE,EK_INI,EK_FIN,I_DAMP      *
+    *    1         1         1         1         I_SPECTRUM(NE)               *
+    *    4      EPSI         0.00100   1.000     I_PWM,METHOD,ACC,EXPO        *
+    *  200        10         3         0.000     N_MAX,N_ITER,N_TABLE,SHIFT   *
+    *    1         1         1         1         I_XN,I_VA,I_GN,I_WN          *
+    *    0         1.00      1.00                L,ALPHA,BETA                 *
+    *====+=========+=========+=========+=========+============================*
+    *                        CALCULATION PARAMETERS :                         *
+    *====+=========+=========+=========+=========+============================*
+    *    2         4         1         0         NO,NDIF,ISPHER,I_GR          *
+    *    0         1         1.000     0.000     I_REN,N_REN,REN_R,REN_I      *
+    *    0         0         7         0         ISFLIP,IR_DIA,ITRTL,I_TEST   *
+    *    1         1         0         0         NEMET,IEMET(NEMET)           *
+    *    0         1       100         0.00      ISOM,NONVOL,NPATH,VINT       *
+    *    0         1         0         0         IFWD,NTHOUT,I_NO,I_RA        *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    * .. 1        20.00      0        20.00      N_RA,THFWD,IBWD,THBWD(NAT)   *
+    *    0         2         0.0100    1         IPW,NCUT,PCTINT,IPP          *
+    *    0        10.00    ANG                   ILENGTH,RLENGTH,UNLENGTH     *
+    *    0         1         1         1         IDWSPH,ISPEED,IATT,IPRINT    *
+    *    0       420.00    293.00      1.20      IDCM,TD,T,RSJ                *
+    *    2        15.00                          ILPM,XLPM0                   *
+    * .. 0.00000   0.00000   0.00000   0.00000   UJ2(NAT)                     *
+    * .. 0.00000   0.00000   0.00000   0.00000   UJ2(NAT)                     *
+    *====+=========+=========+=========+=========+============================*
+    *                 INPUT FILES (PHD, EXAFS, LEED, AED, APECS) :            *
+    *-------------------------------------------------------------------------*
+    *        NAME                    UNIT                TYPE                 *
+    *====+======================+======+=========+============================*
+    *    ../input/spec.dat             5         DATA FILE,UNIT               *
+    *    ../output/tmatrix.tl          1         PHASE SHIFTS/TL FILE,UNIT    *
+    *    ../output/tmatrix.rad         3         RADIAL MATRIX ELTS FILE,UNIT *
+    *    ../output/cluster.clu         4         CLUSTER FILE,UNIT            *
+    *    ../input/adsorbate.pos        2         ADSORBATE FILE,UNIT          *
+    *    ../input/kdirs.dat           11         K DIRECTIONS FILE,UNIT       *
+    *====+======================+======+=========+============================*
+    *                     ADDITIONAL INPUT FILES (APECS) :                    *
+    *                            (AUGER ELECTRON)                             *
+    *-------------------------------------------------------------------------*
+    *        NAME                    UNIT                TYPE                 *
+    *====+======================+======+=========+============================*
+    *    ../output/tmatrix.tl         12         PHASE SHIFTS/TL FILE,UNIT    *
+    *    ../output/tmatrix.rad        13         RADIAL MATRIX ELTS FILE,UNIT *
+    *    ../input/kdirs.dat           14         K DIRECTIONS FILE,UNIT       *
+    *====+======================+======+=========+============================*
+    *                             OUTPUT FILES :                              *
+    *-------------------------------------------------------------------------*
+    *        NAME                    UNIT                TYPE                 *
+    *====+======================+======+=========+============================*
+    *    ../output/spec.log            6         CONTROL FILE,UNIT            *
+    *    ../output/results.dat         9         RESULT FILE,UNIT             *
+    *    ../output/facdif1.dat         8         SCATTERING FACTOR FILE,UNIT  *
+    *    ../output/augclus.clu        10         AUGMENTED CLUSTER FILE,UNIT  *
+    *====+======================+======+=========+============================*
+    *                          END OF THE DATA FILE                           *
+    *=========================================================================*
+    ***************************************************************************
