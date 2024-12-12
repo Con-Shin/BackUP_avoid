@@ -1,0 +1,5 @@
+Abstract:
+
+MsSpecのSeries expansion の収束性を改善するための繰り込み法を提案する。
+Cu(111)の小さなクラスターで繰り込み法をテスト計算した。
+数百個の原子数のクラスター＆数百eVの光電子を用いた光電子回折分光 (PhotoElectron Diffraction, PED)などのspectroscopiesの多重散乱計算を容易にする。
